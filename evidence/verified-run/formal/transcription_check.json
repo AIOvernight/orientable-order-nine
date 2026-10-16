@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "Exact transcription and independent finite certificate checks; Python is not a Lean proof oracle.",
+  "source_hashes": {
+    "upper_odd.json": "4c10c01c0907e54a6a15546eae5f4e6d0c25b40a78cd507c792f4fd19122b8ab",
+    "upper_even.json": "c16b34cf60302d32bf5feedb1fb458eca0846d7ba182cc3467514f03fae86692",
+    "omissions_odd.json": "4785e58a8a4ce2169868b99c4e217c726b6e36f0ec745bbcc18b4ca23eb148f3",
+    "even_base_patterns.json": "5c21f383811b5a01a741e4f5afaf2c795f22945b7628f73d8953a7d477dd3498",
+    "boundary3_tree.json": "498276b431068d0c43c551a73fd2012f67e6cc7833066f3f00c0059dadcc8af6",
+    "boundary4_tree.json": "ba9d9f603566b61ada97df260c8bbcd09a2fafa778a1705ef7cd9a63a5739695"
+  },
+  "literal_sources": {
+    "CertificateData.lean": "5f59eb46116bc7f5c381ee4ae1c2323994f3ddfe4cbc53ea1eda1d8324031259",
+    "OddOmissionData.lean": "9f6a89abd70f81cb6f18bc264d2726014232c68ef4deb495e03c2686a4b73939",
+    "EvenBaseData.lean": "f6895dfc0e76feb7739c56e038dddface0dc7c15bd6f40d6662ab75a2351d61f",
+    "BoundaryData.lean": "f465d618043975b30b8c47d00c82cb81b5d99895949f5db663ccec3dad14cec3"
+  },
+  "upper_nonzero_rows": 2397,
+  "odd_patterns": 190,
+  "even_base_patterns": 144,
+  "boundary": [
+    {
+      "k": 3,
+      "vertices": 6561,
+      "active_vertices": 6561,
+      "arcs": 18522,
+      "max_distance": 11,
+      "root_outdegree": 2,
+      "strict_parent_decrease_checked": 6560,
+      "packed_chunks": 103
+    },
+    {
+      "k": 4,
+      "vertices": 65536,
+      "active_vertices": 65536,
+      "arcs": 258160,
+      "max_distance": 10,
+      "root_outdegree": 2,
+      "strict_parent_decrease_checked": 65535,
+      "packed_chunks": 1024
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "checked_utc": "2026-10-15T23:51:29.387482+00:00",
+  "checked_argentina": "2026-10-15T20:51:29.387482-03:00",
+  "status": "No new equivalent order-nine result or recent relevant revision located in the sources checked.",
+  "scope": "Public-source refresh since the earlier 15 October 2026 bibliography review. This is a search outcome, not a priority certificate.",
+  "arxiv_versions": [
+    {
+      "identifier": "2603.18646",
+      "version": "v2",
+      "latest_submission_date": "2026-08-14",
+      "url": "https://arxiv.org/abs/2603.18646"
+    },
+    {
+      "identifier": "2507.02526",
+      "version": "v1",
+      "latest_submission_date": "2025-07-03",
+      "url": "https://arxiv.org/abs/2507.02526"
+    },
+    {
+      "identifier": "2308.12405",
+      "version": "v3",
+      "latest_submission_date": "2024-07-16",
+      "url": "https://arxiv.org/abs/2308.12405"
+    },
+    {
+      "identifier": "2602.04433",
+      "version": "v2",
+      "latest_submission_date": "2026-02-06",
+      "url": "https://arxiv.org/abs/2602.04433"
+    },
+    {
+      "identifier": "2407.07029",
+      "version": "v1",
+      "latest_submission_date": "2024-07-09",
+      "url": "https://arxiv.org/abs/2407.07029"
+    },
+    {
+      "identifier": "2407.14866",
+      "version": "v2",
+      "latest_submission_date": "2024-08-22",
+      "url": "https://arxiv.org/abs/2407.14866"
+    },
+    {
+      "identifier": "2401.14341",
+      "version": "v4",
+      "latest_submission_date": "2026-07-10",
+      "url": "https://arxiv.org/abs/2401.14341"
+    },
+    {
+      "identifier": "2409.00672",
+      "version": "v5",
+      "latest_submission_date": "2025-02-14",
+      "url": "https://arxiv.org/abs/2409.00672"
+    },
+    {
+      "identifier": "2411.17273",
+      "version": "v1",
+      "latest_submission_date": "2024-11-26",
+      "url": "https://arxiv.org/abs/2411.17273"
+    },
+    {
+      "identifier": "2603.25286",
+      "version": "v2",
+      "latest_submission_date": "2026-04-23",
+      "url": "https://arxiv.org/abs/2603.25286"
+    }
+  ],
+  "discovery_searches": {
+    "arxiv_exact_phrase": {
+      "query": "orientable sequences",
+      "results_returned": 18,
+      "irrelevant_matches_present": true,
+      "new_relevant_october_15_item_found": false
+    },
+    "web_queries": [
+      "\"orientable sequences\" \"2026\" (past day)",
+      "\"orientable\" \"order nine\" maximum",
+      "\"orientable sequences\" \"October\" \"2026\"",
+      "\"orientable\" \"9261\" \"129080\"",
+      "\"orientable sequences\" after:2026-10-14 before:2026-10-17",
+      "\"orientable sequences\" \"exact\" \"maximum\" \"nine\"",
+      "\"orientable sequences\" \"2026\" \"October 15\"",
+      "\"orientable\" \"129,080\"",
+      "\"orientable sequences\" exact maximum Lean",
+      "\"orientable\" \"order 9\" maximum"
+    ],
+    "crossref": {
+      "update_date_filter": "2026-10-15",
+      "returned_records_reviewed": 30,
+      "direct_title_phrase_matches": 0,
+      "limitation": "Top returned records only; not an exhaustive registry export."
+    },
+    "author_and_project_pages": [
+      "https://www.socs.uoguelph.ca/~sawada/pub.html",
+      "https://debruijnsequence.org/db/orientable"
+    ]
+  },
+  "concatenation_trees": {
+    "author_copy_url": "https://www.socs.uoguelph.ca/~sawada/papers/ConcatTrees.pdf",
+    "author_copy_sha256": "59b99a3c88314a2865fedd02d706c290996e50751e0a03974573d186ffdc62fc",
+    "identical_to_previously_examined_file": true,
+    "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0166218X26003938",
+    "publisher_retrieval": "HTTP 403; publisher-version comparison remains pending"
+  },
+  "additional_old_reference": {
+    "title": "Negative Avoiding Sequences",
+    "authors": [
+      "Chris J. Mitchell",
+      "Peter R. Wild"
+    ],
+    "arxiv": "2603.25286v2",
+    "first_submission": "2026-03-26",
+    "latest_revision": "2026-04-23",
+    "passages_examined": [
+      "Definition 1.3",
+      "Theorems 5.7, 6.2, 6.4, 7.2",
+      "Section 8"
+    ],
+    "result": "Exact maxima for negative avoiding sequences, with componentwise negation rather than word reversal. Section 8 explicitly distinguishes the three sequence classes and states that orientable maxima remain unresolved apart from small orders. No equivalent order-nine orientable theorem identified.",
+    "url": "https://arxiv.org/html/2603.25286v2",
+    "new_within_requested_hours": false
+  },
+  "limitations": [
+    "Search and repository indexing may lag publication.",
+    "Nonpublic and unindexed work cannot be excluded.",
+    "Publisher-version access remains unavailable.",
+    "No external human review or worldwide priority certification is claimed."
+  ],
+  "mathematical_files_changed": false,
+  "publication_performed": false
+}

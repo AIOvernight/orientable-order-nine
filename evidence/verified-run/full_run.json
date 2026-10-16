@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "complete_main_theorem_proved": true,
+  "python": "3.9.6",
+  "platform": "macOS-26.6-arm64-arm-64bit",
+  "started_utc": "2026-10-15T20:38:00Z",
+  "stages": [
+    {
+      "script": "reproduce.py",
+      "exit_code": 0,
+      "sha256": "c4307ace93665818f5dfe123caeb46286bee792531c5566f19a953cd08d2f08b"
+    },
+    {
+      "script": "formal/generation/check_data.py",
+      "exit_code": 0,
+      "sha256": "006860e4eb325e8d3048486e803add89e54ff133c9731fe62a157ef138b9968f"
+    },
+    {
+      "script": "formal/build.py",
+      "exit_code": 0,
+      "sha256": "24c98a9a9199caafed42848bc116cd34b6f905d742d595359d5c30cdbc0ffa58"
+    }
+  ],
+  "wall_seconds": 3656.307623125
+}

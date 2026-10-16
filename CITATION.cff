@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "Private review draft. Consult CITATION.md and docs/AI_AND_PROVENANCE.md before citing; historical novelty and independent human review remain provisional."
+type: software
+title: "Exact maximum lengths of cyclic orientable sequences of order nine"
+version: "0.1.0-draft"
+repository-code: "https://github.com/AIOvernight/orientable-order-nine"
+abstract: "Exact order-nine maximum theorems, complete Lean 4.19.0 proofs, finite certificates, and an English manuscript. Prepared with extensive AI assistance."
+keywords:
+  - combinatorics
+  - orientable sequences
+  - formal verification
+  - Lean
+authors:
+  - family-names: "@AIOvernight"
+    website: "https://x.com/AIOvernight"

@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "exit_code": 0,
+  "wall_seconds": 0.609643167,
+  "sampled_peak_rss_bytes": 20676608,
+  "termination": null,
+  "threads": 1,
+  "cpu_seconds_limit": 60,
+  "wall_seconds_limit": 60,
+  "rss_limit_bytes": 1073741824,
+  "rss_watchdog_trigger_bytes": 943718400
+}

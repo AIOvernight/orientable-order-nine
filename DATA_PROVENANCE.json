@@ -1,0 +1,88 @@
+{
+  "files": [
+    {
+      "file": "data/upper_odd.json",
+      "source": "Original research certificate retained in the private development archive; identified by source_sha256.",
+      "source_sha256": "2e10bf5bd524e4c90ac8fd07e9afe8acacdd0f8fc086059c9113e39280ebc878",
+      "copied_fields": [
+        "n",
+        "potential",
+        "charge"
+      ],
+      "copy_sha256": "4c10c01c0907e54a6a15546eae5f4e6d0c25b40a78cd507c792f4fd19122b8ab",
+      "transformation": "Only listed fields retained; JSON reserialized; mathematical values unchanged"
+    },
+    {
+      "file": "data/upper_even.json",
+      "source": "Original research certificate retained in the private development archive; identified by source_sha256.",
+      "source_sha256": "33a87e27723ae70fe275f27bff52988695185dcf50372a20e34a3e03a8568db4",
+      "copied_fields": [
+        "n",
+        "potential",
+        "charge"
+      ],
+      "copy_sha256": "c16b34cf60302d32bf5feedb1fb458eca0846d7ba182cc3467514f03fae86692",
+      "transformation": "Only listed fields retained; JSON reserialized; mathematical values unchanged"
+    },
+    {
+      "file": "data/omissions_odd.json",
+      "source": "Original research certificate retained in the private development archive; identified by source_sha256.",
+      "source_sha256": "75b1cc28cb646ee2325ec8d8fd419edbb4f29674811ac7ac03647d87524e23eb",
+      "copied_fields": [
+        "n",
+        "omitted_patterns"
+      ],
+      "copy_sha256": "4785e58a8a4ce2169868b99c4e217c726b6e36f0ec745bbcc18b4ca23eb148f3",
+      "transformation": "Only listed fields retained; JSON reserialized; mathematical values unchanged"
+    },
+    {
+      "file": "data/word3.json",
+      "source": "Original research certificate retained in the private development archive; identified by source_sha256.",
+      "source_sha256": "63c98fbe4777df765c59e406f26849ab126f1f34de74098c7881d9493b8344a5",
+      "copied_fields": [
+        "n",
+        "k",
+        "period",
+        "word"
+      ],
+      "copy_sha256": "710ab609eacfa3f15f1a6f7ac66018ee4358953ffd4c464f8b3c24583b72ad9c",
+      "transformation": "Only listed fields retained; JSON reserialized; mathematical values unchanged"
+    },
+    {
+      "file": "data/word4.json",
+      "source": "Original research certificate retained in the private development archive; identified by source_sha256.",
+      "source_sha256": "43a3b3c9b174c32de97a028ff3ecac24e11d9b90c4d570ecca9a0d86d5063018",
+      "copied_fields": [
+        "n",
+        "k",
+        "period",
+        "word"
+      ],
+      "copy_sha256": "f0ad7cc80585a39898b10cf16ccd04be34e30f2215c3bea67ab59775ac04ad60",
+      "transformation": "Only listed fields retained; JSON reserialized; mathematical values unchanged"
+    }
+  ],
+  "runtime_external_dependencies": [],
+  "python_preparation": "3.14.8",
+  "version3_additions": {
+    "even_base_patterns.json": {
+      "sha256": "5c21f383811b5a01a741e4f5afaf2c795f22945b7628f73d8953a7d477dd3498",
+      "origin": "Local audit continuation; independently checked and transcribed as explicit Lean literals."
+    },
+    "boundary3_tree.json": {
+      "sha256": "498276b431068d0c43c551a73fd2012f67e6cc7833066f3f00c0059dadcc8af6",
+      "origin": "Local audit continuation; independently checked and transcribed as explicit Lean literals."
+    },
+    "boundary4_tree.json": {
+      "sha256": "ba9d9f603566b61ada97df260c8bbcd09a2fafa778a1705ef7cd9a63a5739695",
+      "origin": "Local audit continuation; independently checked and transcribed as explicit Lean literals."
+    }
+  },
+  "formal_boundary_method": "Finite decreasing-distance certificates on all literal vertices; original cyclic words remain independent Python evidence.",
+  "version3_runtime_requirements": [
+    "Python >= 3.9",
+    "Lean 4.19.0 official standard library",
+    "POSIX resource module and ps"
+  ],
+  "publication_preparation": "Mathematical files copied byte-for-byte from the sealed version-3 review package. Private development paths omitted."
+}

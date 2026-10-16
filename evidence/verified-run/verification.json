@@ -1,0 +1,253 @@
+{
+  "arithmetic": "exact integers",
+  "comparison": {
+    "GS_excluded_9tuple_power": [
+      0,
+      -2,
+      -6,
+      0,
+      0,
+      9,
+      0,
+      0,
+      0,
+      0
+    ],
+    "MW_excluded_8tuple_power_even": [
+      -6,
+      -9,
+      -2,
+      16,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "MW_excluded_8tuple_power_odd": [
+      -2,
+      -3,
+      -2,
+      4,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "table": [
+      {
+        "GS_construction": 8778,
+        "MW_complete_support": 9237,
+        "MW_published_upper": 9423,
+        "candidate_maximum": 9261,
+        "k": 3
+      },
+      {
+        "GS_construction": 126516,
+        "MW_complete_support": 127124,
+        "MW_published_upper": 129572,
+        "candidate_maximum": 129080,
+        "k": 4
+      },
+      {
+        "GS_construction": 962580,
+        "MW_complete_support": 969230,
+        "MW_published_upper": 971350,
+        "candidate_maximum": 969310,
+        "k": 5
+      },
+      {
+        "GS_construction": 5003970,
+        "MW_complete_support": 5013324,
+        "MW_published_upper": 5027304,
+        "candidate_maximum": 5023506,
+        "k": 6
+      }
+    ]
+  },
+  "data_sha256": {
+    "data/omissions_odd.json": "4785e58a8a4ce2169868b99c4e217c726b6e36f0ec745bbcc18b4ca23eb148f3",
+    "data/upper_even.json": "c16b34cf60302d32bf5feedb1fb458eca0846d7ba182cc3467514f03fae86692",
+    "data/upper_odd.json": "4c10c01c0907e54a6a15546eae5f4e6d0c25b40a78cd507c792f4fd19122b8ab",
+    "data/word3.json": "710ab609eacfa3f15f1a6f7ac66018ee4358953ffd4c464f8b3c24583b72ad9c",
+    "data/word4.json": "f0ad7cc80585a39898b10cf16ccd04be34e30f2215c3bea67ab59775ac04ad60"
+  },
+  "even_recipe": {
+    "D0_falling_coefficients": [
+      0,
+      0,
+      38,
+      73,
+      30,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "D0_patterns": 144,
+    "D0_power_coefficients": [
+      0,
+      0,
+      -1,
+      -2,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "arcs_per_matched_pair": 16,
+    "parameter_patterns": 52,
+    "vertex_identities": 4140
+  },
+  "odd_recipe": {
+    "falling_coefficients": [
+      0,
+      0,
+      56,
+      97,
+      34,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "patterns": 190,
+    "uniform_omissions": 0,
+    "vertex_identities": 4140
+  },
+  "status": "PASS",
+  "universe": {
+    "palindrome_patterns": 52,
+    "rank_inventory_9": [
+      0,
+      1,
+      255,
+      3025,
+      7770,
+      6951,
+      2646,
+      462,
+      36,
+      1
+    ],
+    "vertices": 4140,
+    "words": 21147
+  },
+  "upper_even": {
+    "falling_coefficients": [
+      0,
+      8,
+      38,
+      73,
+      30,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "inequalities": 21095,
+    "power_coefficients": [
+      0,
+      8,
+      -1,
+      -2,
+      0,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "slack_histogram": {
+      "0": 6350,
+      "1": 2104,
+      "2": 5038,
+      "3": 3420,
+      "4": 2296,
+      "5": 1360,
+      "6": 414,
+      "7": 30,
+      "8": 29,
+      "9": 14,
+      "10": 35,
+      "11": 2,
+      "12": 2,
+      "14": 1
+    }
+  },
+  "upper_odd": {
+    "falling_coefficients": [
+      0,
+      0,
+      56,
+      97,
+      34,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "inequalities": 21095,
+    "power_coefficients": [
+      0,
+      6,
+      -11,
+      -2,
+      4,
+      3,
+      0,
+      0,
+      0,
+      0
+    ],
+    "slack_histogram": {
+      "0": 6436,
+      "1": 2150,
+      "2": 4892,
+      "3": 3470,
+      "4": 2320,
+      "5": 1320,
+      "6": 389,
+      "7": 40,
+      "8": 27,
+      "9": 22,
+      "10": 16,
+      "11": 8,
+      "12": 4,
+      "14": 1
+    }
+  },
+  "verifier_controls": {
+    "invalid_controls_rejected": [
+      "palindrome",
+      "duplicate",
+      "reverse_pair",
+      "wrap_only_palindrome",
+      "duplicate_json_key",
+      "high_rank_charge",
+      "missing_omission"
+    ],
+    "valid_control": "accepted"
+  },
+  "word3": {
+    "cyclic_windows": 9261,
+    "k": 3,
+    "period": 9261,
+    "wrap_windows": 8
+  },
+  "word4": {
+    "cyclic_windows": 129080,
+    "k": 4,
+    "period": 129080,
+    "wrap_windows": 8
+  }
+}

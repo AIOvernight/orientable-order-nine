@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-16T03:09:52.662928+00:00",
+  "credited_name": "@AIOvernight",
+  "scope": "Private GitHub preparation; attribution and publication metadata edits only. No new full Lean run.",
+  "manuscript_before_sha256": "4a87fd348087e543b1788fc0b3e3433a04cf7842ceeab11be48d9a4175b931e3",
+  "manuscript_after_sha256": "544bef868ef96cffafe817bb5d25f2175154359c73b5beb08feb225126ec653d",
+  "display_math_blocks_unchanged": 22,
+  "all_manuscript_table_rows_unchanged": true,
+  "mathematical_core_files_unchanged": 3397,
+  "pdf_author": "@AIOvernight",
+  "pdf_sha256": "f1bc3309539ce05cdb2db3273bae2567da3a0638c69c1b59503bad5ad49da4a2",
+  "pdf_pages_visually_reviewed": 11,
+  "citation_yaml_and_handle_verified": true,
+  "previous_translation_checks_are_historical": true
+}

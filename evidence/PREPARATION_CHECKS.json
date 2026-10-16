@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "language": "en",
+  "prepared_utc": "2026-10-16T03:25:45.379212+00:00",
+  "scope": "Local publication packaging; no upload, no new full Lean compilation, and no novelty certification.",
+  "sealed_source": {
+    "version": 3,
+    "zip_sha256": "d46399746629ae0fc8f0f4b5c077d0886028350847d3bae1be0d0d4e58363a91",
+    "original_files_checked": 3434,
+    "original_files_unchanged": true
+  },
+  "core_identity": {
+    "status": "PASS",
+    "files_checked": 3397,
+    "hash_manifest": "evidence/CORE_HASHES.json",
+    "mathematical_sources_changed": false
+  },
+  "checks_performed": {
+    "english_translation": {
+      "status": "PASS",
+      "evidence": "evidence/TRANSLATION_CHECKS.json",
+      "display_math_blocks_unchanged": 22,
+      "numeric_tables_unchanged": true,
+      "english_pdf_all_pages_reviewed": true
+    },
+    "finite_python_verification": {
+      "status": "PASS",
+      "evidence": "evidence/preparation-run/finite-verification.json",
+      "resource_report": "evidence/preparation-run/finite-run.json"
+    },
+    "exact_lean_transcription": {
+      "status": "PASS",
+      "evidence": "evidence/preparation-run/transcription-check.json"
+    },
+    "markdown_relative_links": {
+      "status": "PASS",
+      "checked": 56
+    },
+    "pdf": {
+      "status": "PASS",
+      "file": "paper/order-nine-manuscript.pdf",
+      "sha256": "49afd72b17c64289b9361bf87e7374d03cde2680cb870acd79ab02550dfb8052",
+      "pages": 11,
+      "equation_lines": 37,
+      "latest_render_all_pages_visually_reviewed": true,
+      "fallback_glyphs_checked": true,
+      "external_link_count": 9
+    },
+    "release_file_selection": {
+      "status": "PASS",
+      "private_work_paths_and_selected_credential_markers_detected": false,
+      "runtime_outputs_excluded": true,
+      "downloaded_third_party_articles_excluded": true
+    }
+  },
+  "historical_full_proof": {
+    "status": "PASS",
+    "evidence": "evidence/verified-run/full_run.json",
+    "lean_version": "4.19.0",
+    "modules": 3375,
+    "theorem_axiom_audits": 16270,
+    "rerun_during_documentation_preparation": false
+  },
+  "credited_name": "@AIOvernight",
+  "pending": [
+    "License choice",
+    "Final publisher-version comparison of Concatenation trees",
+    "Independent human review and broader historical-novelty assessment",
+    "Public release and DOI assignment"
+  ],
+  "publication_performed": false
+}

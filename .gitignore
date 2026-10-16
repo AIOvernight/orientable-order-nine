@@ -1,0 +1,12 @@
+# Local verification outputs
+/results/
+/formal/logs/
+*.olean
+*.olean.tmp
+*.ilean
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+.env
+.env.*

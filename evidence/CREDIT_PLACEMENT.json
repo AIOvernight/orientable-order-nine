@@ -1,0 +1,34 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-16T03:25:44.915997+00:00",
+  "scope": "Move linked personal credit to document endings; mathematical content unchanged.",
+  "documents_with_closing_credit": [
+    "README.md",
+    "CITATION.md",
+    "docs/STATUS.md",
+    "docs/AI_AND_PROVENANCE.md",
+    "paper/MANUSCRIPT.md",
+    "paper/SUMMARY.md",
+    "LICENSE_STATUS.md"
+  ],
+  "chosen_handle": "@AIOvernight",
+  "profile_url": "https://x.com/AIOvernight",
+  "all_reader_facing_credits_link_to_x": true,
+  "pdf_credit_pages": [
+    11
+  ],
+  "pdf_x_link_pages": [
+    11
+  ],
+  "pdf_changed_pages_visually_reviewed": [
+    1,
+    2,
+    11
+  ],
+  "pdf_pages_3_to_10_pixel_identical_to_previous_review": true,
+  "pdf_sha256": "49afd72b17c64289b9361bf87e7374d03cde2680cb870acd79ab02550dfb8052",
+  "display_math_blocks_unchanged": 22,
+  "manuscript_table_rows_unchanged": true,
+  "future_preference_recorded_in": "CONTRIBUTING.md",
+  "full_lean_rerun": false
+}

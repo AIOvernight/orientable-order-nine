@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checked_utc": "2026-10-16T03:21:10.402049+00:00",
+  "credited_handle": "@AIOvernight",
+  "profile_url": "https://x.com/AIOvernight",
+  "profile_description": "A night full of tokens + RTX 5090",
+  "scope": "Profile link and display description; mathematical content and recorded reproduction hardware unchanged.",
+  "display_math_blocks_unchanged": 22,
+  "manuscript_table_rows_unchanged": true,
+  "pdf_link_checked": true,
+  "pdf_author": "@AIOvernight",
+  "pdf_page_1_visually_reviewed": true,
+  "pdf_pages_2_to_11_pixel_identical_to_previous_review": true,
+  "pdf_sha256": "a5890e5ee34fa068b6e09115dd554211b23f91441380cc89a250a640144ae665",
+  "cff_author_website_checked": true,
+  "full_lean_rerun": false
+}

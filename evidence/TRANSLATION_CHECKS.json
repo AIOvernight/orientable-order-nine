@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "language": "en",
+  "display_math_blocks_unchanged": 22,
+  "manuscript_external_reference_urls_unchanged": 8,
+  "numeric_table_rows_unchanged": 6,
+  "old_language_files_excluded": true,
+  "proof_sources_changed": false,
+  "scope": "English documentation conversion; mathematical sources and historical proof evidence are unchanged.",
+  "previous_delivery_zip_sha256": "b4920a99e0fd8e0fe5ed1318825b73b982701b3248bcad376fe348b91f099679",
+  "english_manuscript_sha256": "4a87fd348087e543b1788fc0b3e3433a04cf7842ceeab11be48d9a4175b931e3",
+  "translated_documents": [
+    "paper/MANUSCRIPT.md",
+    "docs/FORMALIZATION.md",
+    "docs/BIBLIOGRAPHY.md",
+    "docs/EXPLANATION.md"
+  ],
+  "publication_guide": "The local publication guide was also translated."
+}
